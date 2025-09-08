@@ -1,0 +1,16 @@
+{
+  "name": "AGBEII",
+  "wake_word": "agbeii",
+  "model_type": "tflite",
+  "tflite_file": "AGBEII.tflite",
+  "probability_cutoff": 0.6,
+  "features": {
+    "sample_rate": 16000,
+    "frame_length": 40,
+    "frame_stride": 20,
+    "window_size_ms": 30,
+    "feature_type": "mfcc",
+    "num_mel_bins": 40,
+    "num_coefficients": 13
+  }
+}
